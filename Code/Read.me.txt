@@ -1,0 +1,23 @@
+Hello,
+This is My CW1 Subbmission
+---------------------------------------------------------------------------------------------------------------
+Please Run Server.py First
+-To use the loopback address edit the server.py file serverip variable remove getip() and add this "127.0.0.1"
+---------------------------------------------------------------------------------------------------------------
+Then Run Client.py
+-A GUI should appear fill the fields
+-Press connect first then send
+-To quit the server connecttion press quit
+-To exit the client completely press on the x in the upper right corner of the window
+---------------------------------------------------------------------------------------------------------------
+For Windows Users:
+If you are missing any libraries please Run Install-Packages.bat 
+it will install Tkinter
+
+Tkinter: Window,Canvases Lib (GUI)
+---------------------------------------------------------------------------------------------------------------
+For Mac/Linux
+Please Make Sure you Install Tk Packages
+---------------------------------------------------------------------------------------------------------------
+Ahmed Basem Ahmed Alsaeed Ali
+TKHID# 202000188
