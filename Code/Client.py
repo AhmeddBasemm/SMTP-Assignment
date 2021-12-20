@@ -135,10 +135,10 @@ def PopulateEmail():
                 DATA.pop(len(DATA)-1)
 
             #Add the Data ending statment to the lines
-            DATA.extend(["."])
+            DATA.extend([".",""])
         else:
             #Fills the DATA variable with the Ending Statment
-            DATA = ["."]
+            DATA = [".",""]
         #-------------------------------------------------------------------------------------
         #Grabs the User input from the GUI and pass them to the SendEmail function         
         SendEmail(Server,From.get(),To.get(),Subject.get(),DATA)
